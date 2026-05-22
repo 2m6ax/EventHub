@@ -1,0 +1,10 @@
+source venv/bin/activate
+python3 -m venv --without-pip venv
+
+- python3 -m venv venv
+
+pip install Flask mysql-connector-python
+
+python main.py
+
+STRG + SHIFT + R
